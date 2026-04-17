@@ -1,0 +1,47 @@
+:root { --primary: #00ff88; }   /* Neon Green - Gym feel */
+
+body {
+    background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);
+    color: #e2e8f0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.navbar { background: rgba(15, 23, 42, 0.95) !important; backdrop-filter: blur(10px); }
+
+.card {
+    background: rgba(30, 41, 55, 0.9);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 255, 136, 0.15);
+}
+
+.table thead { background: #0f172a; }
+
+.form-control, .form-select {
+    background: #334155;
+    border: none;
+    color: #e2e8f0;
+    border-radius: 12px;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 3px rgba(0, 255, 136, 0.4);
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #00ff88, #00cc66);
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.header-glow {
+    text-shadow: 0 0 25px rgba(0, 255, 136, 0.7);
+}
+
+.badge-plan {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+    border-radius: 50px;
+}
